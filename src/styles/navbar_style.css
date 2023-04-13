@@ -1,0 +1,22 @@
+nav {
+	font-family: "Segoe UI", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f70e36;
+	padding: 10px;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.6);
+	position: sticky;
+	top: 0;
+}
+
+.globe-icon {
+	width: 20px;
+	margin-right: 5px;
+}
+
+.title {
+	font-weight: bold;
+	letter-spacing: -1px;
+	color: rgba(0,0,0,0.8);
+}

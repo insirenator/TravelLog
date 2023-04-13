@@ -1,0 +1,67 @@
+.location-card {
+	font-family: "Segoe UI", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	margin: 10px;
+}
+
+.location-image {
+	max-width: 250px;
+	height: 250px; 
+	margin-right: 20px;
+	border-radius: 7px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+}
+
+.location-info--topbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px 0;
+}
+
+.loc-icon {
+	width: 20px;
+}
+
+.loc-country {
+	margin-right: auto;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.loc-link {
+	color: grey;
+	font-size: 12px;
+}
+
+.loc-name {
+	letter-spacing: -1.5px;
+}
+
+.loc-visitdate {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.loc-desc {
+	font-size: 14px;
+}
+
+@media(max-width: 650px) {
+	.location-card {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.location-image {
+		width: 350px ;
+		height: 200px;
+		margin: 0;
+	}
+}
